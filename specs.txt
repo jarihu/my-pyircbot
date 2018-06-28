@@ -1,0 +1,26 @@
+generic:
+- getServers()
+- getChannels(server)
+- getBots()
+
+server(name, port):
+#name
+#port
+#network
+- createServerSocket()
+- setNickName(name)
+
+bot: 
+#server
+#socket
+#channel
+#name
+- setNickName(name)
+- generateName()
+- connectServer(socket)
+- joinChannel(name)
+- sendMessage(msg, channel)
+- monitorCommands
+- performCommand
+- leaveChannel
+- terminate

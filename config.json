@@ -1,0 +1,34 @@
+{
+    "config": {
+        "commands":
+        [
+            "whois",
+            "die"
+        ],
+        "commandServer": {
+            "name": "chat.freenode.net",
+            "network": "freenode",
+            "port": 6667,
+            "channel": {"name": "#fs-botmaster"}
+        },
+        "bots":[
+        {
+            "name": "Optimus",
+            "server": {
+                "name": "irc.cs.tut.fi",
+                "network": "ircnet",
+                "port": 6667,
+                "channels": [{"name": "#fs-botlair"}]
+            }
+        },
+        {
+            "name": "Bumblebee",
+            "server": {
+                "name": "irc.cs.tut.fi",
+                "network": "ircnet",
+                "port": 6667,
+                "channels": [{"name": "#fs-botlair"}]
+            }
+        }]
+    }
+}
